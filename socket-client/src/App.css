@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  align-items: center;
+  padding-left: 20px;
+  justify-self: center;
+  gap: 20px;
+
+}
+
+.flex>input {
+  width: 80vw;
+}
+
+.messags>div>p {
+  /* background-color: rgb(140, 140, 255); */
+  border-radius: 10px;
+  width: 40px;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+}
